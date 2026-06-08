@@ -1,4 +1,4 @@
-# LeetCode Journey
+# LeetCode Solutions
 
 A collection of my LeetCode solutions in Python, documenting my journey through data structures, algorithms, and problem-solving.
 
@@ -11,9 +11,14 @@ A collection of my LeetCode solutions in Python, documenting my journey through 
 
 ## Repository Structure
 
-easy/
-medium/
-hard/
+leetcode-solutions/
+├── easy/
+│   ├── 0001_two_sum.py
+│   ├── 0009_palindrome_number.py
+│   └── 0013_roman_to_integer.py
+├── medium/
+├── hard/
+└── README.md
 
 ## Topics Covered
 
