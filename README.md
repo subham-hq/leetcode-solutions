@@ -11,6 +11,7 @@ A collection of my LeetCode solutions in Python, documenting my journey through 
 
 ## Repository Structure
 
+```
 leetcode-solutions/
 ├── easy/
 │   ├── 0001_two_sum.py
@@ -19,6 +20,7 @@ leetcode-solutions/
 ├── medium/
 ├── hard/
 └── README.md
+```
 
 ## Topics Covered
 
