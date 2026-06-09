@@ -1,0 +1,38 @@
+name: Update README
+
+# Regenerates the stats table, solutions index, and tree whenever a solution
+# is added or changed. Also runnable manually from the Actions tab.
+on:
+  push:
+    branches: [main] # change to "master" if that is your default branch
+    paths:
+      - "easy/**"
+      - "medium/**"
+      - "hard/**"
+      - "scripts/update_readme.py"
+  workflow_dispatch:
+
+# Required so the default GITHUB_TOKEN can commit the regenerated README back.
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate README sections
+        run: python scripts/update_readme.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "docs: auto-update LeetCode stats and solutions index [skip ci]"
+          file_pattern: "README.md"
