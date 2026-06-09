@@ -1,17 +1,91 @@
-# LeetCode Solutions
+<div align="center">
 
-A collection of my LeetCode solutions in Python, documenting my journey through data structures, algorithms, and problem-solving.
+# 🧩 LeetCode Solutions
 
-## Goals
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFA116&center=true&vCenter=true&width=620&lines=Solving+LeetCode%2C+one+problem+at+a+time;Data+Structures+and+Algorithms+in+Python;Clean%2C+efficient%2C+readable+solutions;From+Easy+to+Medium+to+Hard" alt="Typing SVG" />
 
-- Strengthen problem-solving skills
-- Master data structures and algorithms
-- Improve coding interview preparation
-- Write clean and efficient Python code
+<br/>
 
-## Repository Structure
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+<img src="https://img.shields.io/github/last-commit/subham-hq/leetcode-solutions?style=for-the-badge&color=FFA116" alt="Last commit" />
+<img src="https://img.shields.io/github/repo-size/subham-hq/leetcode-solutions?style=for-the-badge" alt="Repo size" />
 
-```
+<br/><br/>
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=py,git,github,vscode,linux" alt="Skills" />
+</a>
+
+</div>
+
+---
+
+## 📖 About
+
+A growing, organized collection of my LeetCode solutions written in **Python**, documenting my journey through data structures, algorithms, and problem-solving. Solutions are committed under their difficulty (`easy/`, `medium/`, `hard/`) with a consistent naming scheme, and the stats, index, and tree below **regenerate themselves automatically** on every push via GitHub Actions.
+
+The goal isn't just an accepted submission — it's clean, readable, efficient code and the pattern recognition that real interviews and real systems demand.
+
+---
+
+## 📊 LeetCode Stats
+
+<div align="center">
+
+<!-- 🔴 REPLACE YOUR_LEETCODE_USERNAME below with your actual LeetCode handle. -->
+<img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
+
+</div>
+
+> This card is a **live SVG** — it pulls fresh data from LeetCode every time the page loads, so it needs **no workflow at all**. Just keep the username correct.
+>
+> Customize it via the query string: `theme=dark|unicorn|nord|forest|...`, `ext=heatmap|activity|contest`, `site=us|cn`. Full options: [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-Stats-Card).
+
+---
+
+## 🎯 Progress
+
+<!-- STATS:START -->
+| Difficulty | Solved |
+|:-----------|-------:|
+| 🟢 Easy | 3 |
+| 🟡 Medium | 0 |
+| 🔴 Hard | 0 |
+| **Total** | **3** |
+<!-- STATS:END -->
+
+---
+
+## 🧠 Solutions Index
+
+<!-- SOLUTIONS:START -->
+### 🟢 Easy (3)
+
+| # | Problem | Solution |
+|--:|:--------|:---------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./easy/0001_two_sum.py) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./easy/0009_palindrome_number.py) |
+| 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./easy/0013_roman_to_integer.py) |
+
+### 🟡 Medium (0)
+
+_No solutions yet._
+
+### 🔴 Hard (0)
+
+_No solutions yet._
+<!-- SOLUTIONS:END -->
+
+---
+
+## 🗂️ Repository Structure
+
+<details>
+<summary><b>Click to expand the full solution tree</b></summary>
+
+<!-- TREE:START -->
+```text
 leetcode-solutions/
 ├── easy/
 │   ├── 0001_two_sum.py
@@ -21,30 +95,64 @@ leetcode-solutions/
 ├── hard/
 └── README.md
 ```
+<!-- TREE:END -->
 
-## Topics Covered
+</details>
 
-- Arrays
-- Strings
-- Hash Maps
-- Linked Lists
-- Stacks
-- Queues
-- Trees
-- Binary Search
-- Recursion
-- Dynamic Programming
-- Graphs
-- Greedy Algorithms
+---
 
-## Progress
+## 🏷️ Naming Convention
 
-| Difficulty | Solved |
-|------------|---------|
-| Easy | 3 |
-| Medium | 0 |
-| Hard | 0 |
+Solutions follow a strict, link-friendly pattern so the automation can build correct LeetCode links:
 
-## Language
+```
+<number>_<leetcode-slug-with-underscores>.py
+```
 
-Python
+| Filename | Problem | Generated link |
+|:---------|:--------|:---------------|
+| `easy/0001_two_sum.py` | #1 Two Sum | `leetcode.com/problems/two-sum/` |
+| `medium/0146_lru_cache.py` | #146 LRU Cache | `leetcode.com/problems/lru-cache/` |
+
+Rules:
+- Pad the number to **4 digits** (`0001`, `0042`, `1342`).
+- Use the **exact LeetCode slug**, with its hyphens written as underscores (`two-sum` → `two_sum`). The script converts them back to build the URL.
+- One file per problem.
+
+---
+
+## 🧮 Topics Covered
+
+Arrays · Strings · Hash Maps · Two Pointers · Sliding Window · Linked Lists · Stacks · Queues · Trees · Binary Search · Recursion · Backtracking · Dynamic Programming · Graphs · Greedy · Heaps
+
+---
+
+## ⚙️ How This README Stays Current
+
+Two independent mechanisms keep everything in sync:
+
+1. **The stats card** ([`leetcard.jacoblin.cool`](https://github.com/JacobLinCool/LeetCode-Stats-Card)) is a live image — it refreshes on its own, nothing to run.
+2. **The progress table, solutions index, and tree** are regenerated by [`scripts/update_readme.py`](./scripts/update_readme.py). A GitHub Action ([`.github/workflows/update-readme.yml`](./.github/workflows/update-readme.yml)) runs it automatically whenever you push a new solution: it scans the folders, rewrites the marked regions, and commits the result back.
+
+Regenerate locally any time:
+
+```bash
+python scripts/update_readme.py
+```
+
+---
+
+## 🚀 Goals
+
+- Build deep fluency in data structures and algorithms
+- Write clean, efficient, idiomatic Python
+- Develop reliable pattern recognition for coding interviews
+- Maintain consistency — solve, document, repeat
+
+---
+
+<div align="center">
+
+⭐ If you find this useful, consider starring the repo.
+
+</div>
