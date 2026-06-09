@@ -33,8 +33,9 @@ The goal isn't just an accepted submission — it's clean, readable, efficient c
 
 <div align="center">
 
-<!-- 🔴 REPLACE YOUR_LEETCODE_USERNAME below with your actual LeetCode handle. -->
-<img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
+<a href="https://leetcode.com/u/subhambhattacharya/">
+  <img src="https://leetcard.jacoblin.cool/subhambhattacharya?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
+</a>
 
 </div>
 
