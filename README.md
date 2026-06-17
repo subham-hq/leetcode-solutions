@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 3 |
+| 🟢 Easy | 4 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **3** |
+| **Total** | **4** |
 <!-- STATS:END -->
 
 ---
@@ -57,13 +57,14 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (3)
+### 🟢 Easy (4)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./easy/0001_two_sum.py) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./easy/0009_palindrome_number.py) |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./easy/0013_roman_to_integer.py) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./easy/0014_longest_common_prefix.py) |
 
 ### 🟡 Medium (0)
 
@@ -87,7 +88,8 @@ leetcode-solutions/
 ├── easy/
 │   ├── 0001_two_sum.py
 │   ├── 0009_palindrome_number.py
-│   └── 0013_roman_to_integer.py
+│   ├── 0013_roman_to_integer.py
+│   └── 0014_longest_common_prefix.py
 ├── medium/
 ├── hard/
 └── README.md
