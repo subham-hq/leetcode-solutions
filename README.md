@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 5 |
+| 🟢 Easy | 6 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **5** |
+| **Total** | **6** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (5)
+### 🟢 Easy (6)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -66,6 +66,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./easy/0013_roman_to_integer.py) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./easy/0014_longest_common_prefix.py) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./easy/0020_valid_parentheses.py) |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./easy/0021_merge_two_sorted_lists.py) |
 
 ### 🟡 Medium (0)
 
@@ -91,7 +92,8 @@ leetcode-solutions/
 │   ├── 0009_palindrome_number.py
 │   ├── 0013_roman_to_integer.py
 │   ├── 0014_longest_common_prefix.py
-│   └── 0020_valid_parentheses.py
+│   ├── 0020_valid_parentheses.py
+│   └── 0021_merge_two_sorted_lists.py
 ├── medium/
 ├── hard/
 └── README.md
