@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 7 |
+| 🟢 Easy | 8 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **7** |
+| **Total** | **8** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (7)
+### 🟢 Easy (8)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -68,6 +68,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./easy/0020_valid_parentheses.py) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./easy/0021_merge_two_sorted_lists.py) |
 | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./easy/0026_remove_duplicates_from_sorted_array.py) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./easy/0027_remove_element.py) |
 
 ### 🟡 Medium (0)
 
@@ -95,7 +96,8 @@ leetcode-solutions/
 │   ├── 0014_longest_common_prefix.py
 │   ├── 0020_valid_parentheses.py
 │   ├── 0021_merge_two_sorted_lists.py
-│   └── 0026_remove_duplicates_from_sorted_array.py
+│   ├── 0026_remove_duplicates_from_sorted_array.py
+│   └── 0027_remove_element.py
 ├── medium/
 ├── hard/
 └── README.md
