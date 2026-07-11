@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 8 |
+| 🟢 Easy | 9 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **8** |
+| **Total** | **9** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (8)
+### 🟢 Easy (9)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -69,6 +69,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./easy/0021_merge_two_sorted_lists.py) |
 | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./easy/0026_remove_duplicates_from_sorted_array.py) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./easy/0027_remove_element.py) |
+| 28 | [Find The Index Of The First Occurrence In A String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./easy/0028_find_the_index_of_the_first_occurrence_in_a_string.py) |
 
 ### 🟡 Medium (0)
 
@@ -97,7 +98,8 @@ leetcode-solutions/
 │   ├── 0020_valid_parentheses.py
 │   ├── 0021_merge_two_sorted_lists.py
 │   ├── 0026_remove_duplicates_from_sorted_array.py
-│   └── 0027_remove_element.py
+│   ├── 0027_remove_element.py
+│   └── 0028_find_the_index_of_the_first_occurrence_in_a_string.py
 ├── medium/
 ├── hard/
 └── README.md
