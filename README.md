@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 11 |
+| 🟢 Easy | 12 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **11** |
+| **Total** | **12** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (11)
+### 🟢 Easy (12)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -72,6 +72,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 28 | [Find The Index Of The First Occurrence In A String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./easy/0028_find_the_index_of_the_first_occurrence_in_a_string.py) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./easy/0035_search_insert_position.py) |
 | 35 | [Search Insert Position V2](https://leetcode.com/problems/search-insert-position-v2/) | [Python](./easy/0035_search_insert_position_v2.py) |
+| 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./easy/0058_length_of_last_word.py) |
 
 ### 🟡 Medium (0)
 
@@ -103,7 +104,8 @@ leetcode-solutions/
 │   ├── 0027_remove_element.py
 │   ├── 0028_find_the_index_of_the_first_occurrence_in_a_string.py
 │   ├── 0035_search_insert_position.py
-│   └── 0035_search_insert_position_v2.py
+│   ├── 0035_search_insert_position_v2.py
+│   └── 0058_length_of_last_word.py
 ├── medium/
 ├── hard/
 └── README.md
