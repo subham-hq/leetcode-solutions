@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 13 |
+| 🟢 Easy | 14 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **13** |
+| **Total** | **14** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (13)
+### 🟢 Easy (14)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -73,6 +73,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./easy/0035_search_insert_position.py) |
 | 35 | [Search Insert Position V2](https://leetcode.com/problems/search-insert-position-v2/) | [Python](./easy/0035_search_insert_position_v2.py) |
 | 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./easy/0058_length_of_last_word.py) |
+| 66 | [Plus One V2](https://leetcode.com/problems/plus-one-v2/) | [Python](./easy/0066_plus_one_v2.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./easy/0066_plus_one.py) |
 
 ### 🟡 Medium (0)
@@ -107,6 +108,7 @@ leetcode-solutions/
 │   ├── 0035_search_insert_position.py
 │   ├── 0035_search_insert_position_v2.py
 │   ├── 0058_length_of_last_word.py
+│   ├── 0066_plus_one_v2.py
 │   └── 0066_plus_one.py
 ├── medium/
 ├── hard/
