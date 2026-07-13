@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 14 |
+| 🟢 Easy | 15 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **14** |
+| **Total** | **15** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (14)
+### 🟢 Easy (15)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -75,6 +75,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./easy/0058_length_of_last_word.py) |
 | 66 | [Plus One V2](https://leetcode.com/problems/plus-one-v2/) | [Python](./easy/0066_plus_one_v2.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./easy/0066_plus_one.py) |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./easy/0067_add_binary.py) |
 
 ### 🟡 Medium (0)
 
@@ -109,7 +110,8 @@ leetcode-solutions/
 │   ├── 0035_search_insert_position_v2.py
 │   ├── 0058_length_of_last_word.py
 │   ├── 0066_plus_one_v2.py
-│   └── 0066_plus_one.py
+│   ├── 0066_plus_one.py
+│   └── 0067_add_binary.py
 ├── medium/
 ├── hard/
 └── README.md
