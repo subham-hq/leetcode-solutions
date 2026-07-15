@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 15 |
+| 🟢 Easy | 16 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **15** |
+| **Total** | **16** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (15)
+### 🟢 Easy (16)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -76,6 +76,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 66 | [Plus One V2](https://leetcode.com/problems/plus-one-v2/) | [Python](./easy/0066_plus_one_v2.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./easy/0066_plus_one.py) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./easy/0067_add_binary.py) |
+| 69 | [Sqrt X](https://leetcode.com/problems/sqrt-x/) | [Python](./easy/0069_sqrt_x.py) |
 
 ### 🟡 Medium (0)
 
@@ -111,7 +112,8 @@ leetcode-solutions/
 │   ├── 0058_length_of_last_word.py
 │   ├── 0066_plus_one_v2.py
 │   ├── 0066_plus_one.py
-│   └── 0067_add_binary.py
+│   ├── 0067_add_binary.py
+│   └── 0069_sqrt_x.py
 ├── medium/
 ├── hard/
 └── README.md
