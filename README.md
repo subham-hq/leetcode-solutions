@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 17 |
+| 🟢 Easy | 18 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **17** |
+| **Total** | **18** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (17)
+### 🟢 Easy (18)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -70,14 +70,15 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./easy/0026_remove_duplicates_from_sorted_array.py) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./easy/0027_remove_element.py) |
 | 28 | [Find The Index Of The First Occurrence In A String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./easy/0028_find_the_index_of_the_first_occurrence_in_a_string.py) |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./easy/0035_search_insert_position.py) |
 | 35 | [Search Insert Position V2](https://leetcode.com/problems/search-insert-position-v2/) | [Python](./easy/0035_search_insert_position_v2.py) |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./easy/0035_search_insert_position.py) |
 | 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./easy/0058_length_of_last_word.py) |
 | 66 | [Plus One V2](https://leetcode.com/problems/plus-one-v2/) | [Python](./easy/0066_plus_one_v2.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./easy/0066_plus_one.py) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./easy/0067_add_binary.py) |
 | 69 | [Sqrt X V2](https://leetcode.com/problems/sqrt-x-v2/) | [Python](./easy/0069_sqrt_x_v2.py) |
 | 69 | [Sqrt X](https://leetcode.com/problems/sqrt-x/) | [Python](./easy/0069_sqrt_x.py) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./easy/0070_climbing_stairs.py) |
 
 ### 🟡 Medium (0)
 
@@ -108,14 +109,15 @@ leetcode-solutions/
 │   ├── 0026_remove_duplicates_from_sorted_array.py
 │   ├── 0027_remove_element.py
 │   ├── 0028_find_the_index_of_the_first_occurrence_in_a_string.py
-│   ├── 0035_search_insert_position.py
 │   ├── 0035_search_insert_position_v2.py
+│   ├── 0035_search_insert_position.py
 │   ├── 0058_length_of_last_word.py
 │   ├── 0066_plus_one_v2.py
 │   ├── 0066_plus_one.py
 │   ├── 0067_add_binary.py
 │   ├── 0069_sqrt_x_v2.py
-│   └── 0069_sqrt_x.py
+│   ├── 0069_sqrt_x.py
+│   └── 0070_climbing_stairs.py
 ├── medium/
 ├── hard/
 └── README.md
