@@ -46,10 +46,10 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 <!-- STATS:START -->
 | Difficulty | Solved |
 |:-----------|-------:|
-| 🟢 Easy | 18 |
+| 🟢 Easy | 19 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **18** |
+| **Total** | **19** |
 <!-- STATS:END -->
 
 ---
@@ -57,7 +57,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 ## 🧠 Solutions Index
 
 <!-- SOLUTIONS:START -->
-### 🟢 Easy (18)
+### 🟢 Easy (19)
 
 | # | Problem | Solution |
 |--:|:--------|:---------|
@@ -79,6 +79,7 @@ The focus is on clean, readable, efficient solutions and on building durable pro
 | 69 | [Sqrt X V2](https://leetcode.com/problems/sqrt-x-v2/) | [Python](./easy/0069_sqrt_x_v2.py) |
 | 69 | [Sqrt X](https://leetcode.com/problems/sqrt-x/) | [Python](./easy/0069_sqrt_x.py) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./easy/0070_climbing_stairs.py) |
+| 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./easy/0083_remove_duplicates_from_sorted_list.py) |
 
 ### 🟡 Medium (0)
 
@@ -117,7 +118,8 @@ leetcode-solutions/
 │   ├── 0067_add_binary.py
 │   ├── 0069_sqrt_x_v2.py
 │   ├── 0069_sqrt_x.py
-│   └── 0070_climbing_stairs.py
+│   ├── 0070_climbing_stairs.py
+│   └── 0083_remove_duplicates_from_sorted_list.py
 ├── medium/
 ├── hard/
 └── README.md
